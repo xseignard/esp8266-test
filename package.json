@@ -4,11 +4,16 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "node src/main.js"
+		"start": "node src/main.js",
+		"dev": "nodemon src/main.js"
 	},
 	"author": "",
 	"license": "MIT",
 	"dependencies": {
-		"express": "^4.16.4"
+		"express": "^4.16.4",
+		"mongoose": "^5.3.13"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.6"
 	}
 }
